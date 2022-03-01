@@ -12,6 +12,7 @@ export class MoviesService {
     }
 
     getOne(id:number):Movie{
+        console.log(typeof id);
         // parseInt() 와 같은 것 +id
         // return this.movies.find(movie=> movie.id === parseInt(id));
         // const movie = this.movies.find(movie=> movie.id === parseInt(id));
